@@ -63,7 +63,7 @@ def send_string(message, line):
     message = message.rjust(LCD_WIDTH, ' ')
     lcd_string(message, line)
 
-def move_string(message1, message2, line1, message3, message4, line2, directtion):
+def move_string(message1, message2, line1, message3, message4, line2):
 
     arrowline1 = " --------> "
     arrowline2 = " --------> "
